@@ -1,30 +1,54 @@
-# React + TypeScript + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A weather application built with React, TypeScript, and Vite. This app allows users to add cities, view weather information, and rearrange the weather cards using drag-and-drop functionality.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Scripts](#scripts)
+- [Dependencies](#dependencies)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Add and remove cities to view weather information.
+- Drag and drop weather cards to rearrange.
+- Change the card background based on weather.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Clone the repository:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+   ```bash
+   git clone https://github.com/your-username/weather-app.git
+   cd weather-app
+2. Install dependencies:
+
+   ```bash
+   npm install
+## Usage
+1. Start the development server:
+
+   ```bash
+    npm run dev
+2. Build the project for production:
+
+   ```bash
+   npm run build
+3. Preview the production build:
+
+   ```bash
+   npm run preview
+## Scripts
+- dev: Starts the development server using Vite.
+- build: Builds the project using TypeScript and Vite.
+- lint: Lints the project using ESLint.
+- preview: Previews the production build using Vite.
+## Dependencies
+- @hello-pangea/dnd: ^16.6.0
+- @types/react-beautiful-dnd: ^13.1.8
+- axios: ^1.7.2
+- react: ^18.3.1
+- react-dom: ^18.3.1
+- reset-css: ^5.0.2

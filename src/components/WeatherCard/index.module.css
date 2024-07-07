@@ -1,0 +1,41 @@
+.weather_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  padding: 24px;
+  margin: 10px;
+  border-radius: 12px;
+  background: rgb(255, 255, 255);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  cursor: move;
+  position: relative;
+}
+
+.card_temperature {
+  font-size: 24px;
+  margin: 0;
+}
+.card_desc {
+  margin: 0px;
+}
+
+.card_location {
+  margin-top: 16px;
+  font-size: 24px;
+}
+
+.delete_button {
+  border: none;
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  font-size: medium;
+  font-weight: bold;
+  top: 8px;
+  right: 8px;
+}

@@ -21,7 +21,7 @@ A weather application built with React, TypeScript, and Vite. This app allows us
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/gary880/weather-app.git
    cd weather-app
 2. Install dependencies:
 
